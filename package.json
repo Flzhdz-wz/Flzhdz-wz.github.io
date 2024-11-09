@@ -1,0 +1,17 @@
+{
+  "name": "flzh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider  && vuepress dev doc",
+    "docs:build": "vuepress build doc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
